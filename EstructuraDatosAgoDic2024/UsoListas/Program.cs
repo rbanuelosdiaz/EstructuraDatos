@@ -1,21 +1,34 @@
 ﻿// See https://aka.ms/new-console-template for more information
-List<int> listaNumeros = new List<int>();
+using UsoListas;
+
+List<Persona> personas = new List<Persona>();
+
 string respuesta = string.Empty;
 do
 {
-    Console.WriteLine("Ingresa un numero entero:");
-    int numero = Convert.ToInt32(Console.ReadLine());
-    listaNumeros.Add(numero);
+    Persona persona = new Persona();
 
-    Console.WriteLine("Quieres ingresar otro numero?");
+    Console.WriteLine("Ingresa el nombre de la persona:");
+    persona.Nombre = Console.ReadLine();
+
+    Console.WriteLine("Ingresa la edad de la persona:");
+    persona.Edad = Convert.ToInt32(Console.ReadLine());
+
+    Console.WriteLine("Ingresa el sexo de la persona:");
+    persona.Sexo = Console.ReadLine();
+
+    Console.WriteLine("Ingresa la altura de la persona:");
+    persona.Altura = Convert.ToDouble(Console.ReadLine());
+
+    personas.Add(persona);
+
+
+    Console.WriteLine("Quieres ingresar otra persona?");
     respuesta = Console.ReadLine();
 
 } while (respuesta.ToUpper() == "SI");
 
-foreach (int numero in listaNumeros)
-{
-    Console.WriteLine($"{numero}");
-}
+
 
 Console.WriteLine("Fin del programa");
 Console.ReadKey();
