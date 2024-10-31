@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{632E9E48-B8D5-4DB3-AADB-4405FB002893}</ProjectGuid>
+    <ProjectGuid>{767537D0-79A9-41D9-BC62-9FCF688332B8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ArbolBinario</RootNamespace>
-    <AssemblyName>ArbolBinario</AssemblyName>
+    <RootNamespace>GrafoNoDirigido</RootNamespace>
+    <AssemblyName>GrafoNoDirigido</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Grafo.cs" />
     <Compile Include="Nodo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

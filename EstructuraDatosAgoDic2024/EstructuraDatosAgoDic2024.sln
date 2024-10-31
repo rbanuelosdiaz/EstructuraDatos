@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsoPilas", "UsoPilas\UsoPil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialN", "FactorialN\FactorialN.csproj", "{D43FD406-EE90-4E28-B868-D8C8CFD747D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArbolBinario", "ArbolBinario\ArbolBinario.csproj", "{632E9E48-B8D5-4DB3-AADB-4405FB002893}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrafoNoDirigido", "GrafoNoDirigido\GrafoNoDirigido.csproj", "{767537D0-79A9-41D9-BC62-9FCF688332B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{D43FD406-EE90-4E28-B868-D8C8CFD747D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D43FD406-EE90-4E28-B868-D8C8CFD747D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D43FD406-EE90-4E28-B868-D8C8CFD747D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{632E9E48-B8D5-4DB3-AADB-4405FB002893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{632E9E48-B8D5-4DB3-AADB-4405FB002893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{632E9E48-B8D5-4DB3-AADB-4405FB002893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{632E9E48-B8D5-4DB3-AADB-4405FB002893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{767537D0-79A9-41D9-BC62-9FCF688332B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{767537D0-79A9-41D9-BC62-9FCF688332B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{767537D0-79A9-41D9-BC62-9FCF688332B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{767537D0-79A9-41D9-BC62-9FCF688332B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
