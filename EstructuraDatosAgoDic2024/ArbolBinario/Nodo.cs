@@ -59,6 +59,27 @@ namespace ArbolBinario
             }
             return raiz;
         }
+
+        /// <summary>
+        /// Metodo que recorre un arbol en modo preorden.
+        /// Visitar la raíz.
+        /// Recorrer el subárbol izquierdo en preorden.
+        /// Recorrer el subárbol derecho en preorden.
+        /// </summary>
+        /// <param name="nodo"></param>
+        public void Preorden(Nodo nodo)
+        {
+            if (nodo == null)
+                return;
+
+            // Visitar la raíz
+            Console.Write(nodo.Valor + " ");
+
+            // Recorrer el subárbol izquierdo
+            Preorden(nodo.NodoIzq);
+
+            // Recorrer el subárbol derecho
+            Preorden(nodo.NodoDer);
+        }
     }
-}
 }
